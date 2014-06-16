@@ -171,9 +171,14 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-    #section1 .title {
-        width:100%;
-        font-size: 20px;
+    #section1 {
+        .title {
+            width:100%;
+            font-size: 20px;
+        }
+        .links a {
+            margin-left: 5px;
+        }
     }
 
 
@@ -182,8 +187,12 @@ body {
     }
 
     #section5 .links{
+        text-align: center;
         width: 100%;
         margin-bottom: 50px;
+        ul {
+            padding: 0;
+        }
     }
 
     .section {

@@ -151,12 +151,19 @@ body {
     width: 100%;
     font-size: 20px;
   }
+  #section1 .links a {
+    margin-left: 5px;
+  }
   #section4 .pill {
     width: 90%;
   }
   #section5 .links {
+    text-align: center;
     width: 100%;
     margin-bottom: 50px;
+  }
+  #section5 .links ul {
+    padding: 0;
   }
   .section {
     padding: 0;
