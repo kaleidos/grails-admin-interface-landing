@@ -78,7 +78,6 @@ body {
         padding: 5%;
         display: inline-block;
         vertical-align: top;
-        word-break:break-all;
         .title{
             font-size: 20px;
             img {
@@ -92,6 +91,10 @@ body {
         .text{
             font-size: 16px;
             margin-top: 5px;
+        }
+        a {
+            color: black;
+            text-decoration: underline;
         }
     }
 }
@@ -125,7 +128,6 @@ body {
     }
     a{
         text-decoration: none;
-        color: @darkgreen;
     }
 }
 
@@ -134,9 +136,9 @@ body {
     text-align: center;
     background-color: @white;
     font-size: 12px;
+    width: 100%;
     a {
         text-decoration: none;
-        color: @darkgreen;
     }
 }
 
@@ -154,6 +156,23 @@ body {
     border-radius: 10px;
 
     background: @btngreen;
+}
+
+a {
+    color: @darkgreen;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
 }
 
 @media screen and (max-width: 1024px) {

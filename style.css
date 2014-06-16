@@ -68,7 +68,6 @@ body {
   padding: 5%;
   display: inline-block;
   vertical-align: top;
-  word-break: break-all;
 }
 #section4 .pill .title {
   font-size: 20px;
@@ -83,6 +82,10 @@ body {
 #section4 .pill .text {
   font-size: 16px;
   margin-top: 5px;
+}
+#section4 .pill a {
+  color: black;
+  text-decoration: underline;
 }
 #section5 {
   background-color: #ffffff;
@@ -110,17 +113,16 @@ body {
 }
 #section5 a {
   text-decoration: none;
-  color: #879b89;
 }
 .footer {
   margin: 50px 0 10px 0;
   text-align: center;
   background-color: #ffffff;
   font-size: 12px;
+  width: 100%;
 }
 .footer a {
   text-decoration: none;
-  color: #879b89;
 }
 .btn {
   text-decoration: none;
@@ -133,6 +135,20 @@ body {
   -webkit-border-radius: 10px;
   border-radius: 10px;
   background: #2c6533;
+}
+a {
+  color: #879b89;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clearfix {
+  display: inline-block;
 }
 @media screen and (max-width: 1024px) {
   #section1 .title {
