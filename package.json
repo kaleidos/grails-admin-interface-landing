@@ -1,0 +1,25 @@
+{
+  "name": "grails-admin-interface-landing",
+  "version": "0.0.0",
+  "description": "grails-admin-interface-landing ==============================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kaleidos/grails-admin-interface-landing.git"
+  },
+  "author": "",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/kaleidos/grails-admin-interface-landing/issues"
+  },
+  "homepage": "https://github.com/kaleidos/grails-admin-interface-landing",
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "gulp": "^3.8.0",
+    "gulp-jade": "^0.5.0",
+    "gulp-less": "^1.2.3"
+  }
+}
